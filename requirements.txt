@@ -1,0 +1,10 @@
+# torch, torchvision, diffusers, transformers, accelerate and friends are not
+# listed here - they're already set up in .venv with a CUDA build matched to
+# this GPU, and a plain `pip install` would silently replace that with a
+# CPU-only build. Reinstall those only the same way they were originally set
+# up, not from this file.
+#
+# Everything below is safe to `pip install -r requirements.txt` on top of an
+# existing .venv - pure-Python, no CUDA implications.
+
+tkinterdnd2==0.6.3   # drag-and-drop onto the Files panel
